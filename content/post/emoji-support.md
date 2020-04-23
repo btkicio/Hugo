@@ -10,7 +10,7 @@ tags = [
 
 In questo breve articolo vediamo come realizzare un comodo password manager con Python. 
 <!--more-->
-Tutto ciò che ci occorre è l'ultima versione di Python sul nostro pc [`Python`](https://gohugo.io/functions/emojify/) e la libreria "Pyperclip" [Piperclip](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
+Tutto ciò che ci occorre è l'ultima versione di [`Python`](https://www.python.org/downloads/) sul nostro pc e la libreria [Piperclip](https://pypi.org/project/pyperclip/). 
 
 Una volta fatto ciò, possiamo creare un nuovo documento e rinominarlo "Password Manager".
 

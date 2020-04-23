@@ -1,5 +1,5 @@
-baseURL = "https://example.com"
-title = "Example Site"
+baseURL = ""
+title = "Marco Cornaggia"
 theme = "erblog"
 paginate = 3
 languageCode = "en"
@@ -11,11 +11,11 @@ footnoteReturnLinkContents = "^"
     author = "Marco Cornaggia"
     # logo = "//blog.ertuil.top/avater.png"
     bio = """
-    <p> This is BIO. You can write something here. </p>
+    <p> Benvenuto! </p>
     <br />
-    <p>Also all html tags such as <a href="https://github.com/ertuil/erblog">link</a> are a good here.</p>
+    <p>Leggi il mio blog o sbircia qualcosa di me</p>
     """
-    # copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+    # copyright = "Copyright © 2020, Marco Cornaggia, all rights reserved."
 
 
 [[menu.main]]
@@ -58,12 +58,12 @@ series = "series"
     weight = 1
 
 [[menu.icon]]
-    url = "https://twitter.com/username"
+    url = "https://www.facebook.com/marco.cornaggia.94"
     name = "facebook"
     weight = 1
 
 [[menu.icon]]
-    url = "https://www.instagram.com/username/"
+    url = "https://www.linkedin.com/in/marco-cornaggia/"
     name = "linkedin"
     weight = 1
 

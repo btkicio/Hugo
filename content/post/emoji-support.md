@@ -1,33 +1,52 @@
 +++
-author = "Hugo Authors"
-title = "Emoji Support"
+author = "Marco Cornaggia"
+title = "Creare un Password Manager con Python"
 date = "2019-03-05"
-description = "Guide to emoji usage in Hugo"
+description = "Benvenuto! Desideri un simpatico programma che copi nella tua tastiera le password dei tuoi siti più visitati? Sei nel posto giusto!"
 tags = [
-    "emoji",
+    "python",
 ]
 +++
 
-Emoji can be enabled in a Hugo project in a number of ways. 
+In questo breve articolo vediamo come realizzare un comodo password manager con Python. 
 <!--more-->
-The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
+Tutto ciò che ci occorre è l'ultima versione di Python sul nostro pc [`Python`](https://gohugo.io/functions/emojify/) e la libreria "Pyperclip" [Piperclip](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
 
-To enable emoji globally, set `enableEmoji` to `true` in your site’s [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
+Una volta fatto ciò, possiamo creare un nuovo documento e rinominarlo "Password Manager".
 
 
 <p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
 <br>
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+Di seguito potete copiare il codice che ho realizzato, salvare il vostro programma su Desktop e cliccare sul tasto "Run".
 
 ***
 
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
+**N.B.** L'esempio di seguito è stato realizzando usando un dizionario di password. A ciascuna password corrisponde un sito.
 
 {{< highlight html >}}
-.emoji {
-font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
-}
+import pyperclip
+
+psw = {
+    'sito1':'password1',
+    'sito2':'password2',
+	'sito3':'password3',
+	'sito4':'password4',
+	'sito5':'password5',
+    'sito6':'password6'
+    }
+
+print("\nCiao Marco! Di quale password hai bisogno?") #inserisci il tuo nome
+for sito in psw:
+    print(" -"+sito)
+
+sito_scelto = input()
+password_scelta = psw[sito_scelto]
+pyperclip.copy(password_scelta)
+
+print("\nCopiata! Ora non ti resta che incollarla")
+input()
+
 {{< /highlight >}}
 
 {{< css.inline >}}

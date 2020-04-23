@@ -6,7 +6,6 @@ aliases = ["about-me","contact"]
 author = "Marco Cornaggia"
 +++
 
-Desrcrivermi non è facile nemmeno per me XD
 Sono un ragazzo di 25 anni e mi diverto a convivere con moletplici passioni. 
 
 Una di queste è sicuramente la realizzazione di siti Internet come quello che stai vedendo. Ho iniziato con Wordpress per poi addentrarmi in soluzioni sempre più complesse, come il framework Hugo.

@@ -1,7 +1,7 @@
 +++
 author = "Marco Cornaggia"
 title = "Creare un Password Manager con Python"
-date = "2019-03-05"
+date = "2020-04-23"
 description = "Benvenuto! Desideri un simpatico programma che copi nella tua tastiera le password dei tuoi siti più visitati? Sei nel posto giusto!"
 tags = [
     "python",

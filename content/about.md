@@ -1,8 +1,8 @@
 +++
 title = "About"
 description = "Qualcosa su di me..."
-date = "2019-02-28"
-aliases = ["about-us","about-hugo","contact"]
+date = "2020-04-23"
+aliases = ["about-me","contact"]
 author = "Marco Cornaggia"
 +++
 

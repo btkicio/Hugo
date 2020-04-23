@@ -1,28 +1,21 @@
 +++
 title = "About"
-description = "Hugo, the world’s fastest framework for building websites"
+description = "Qualcosa su di me..."
 date = "2019-02-28"
 aliases = ["about-us","about-hugo","contact"]
-author = "Hugo Authors"
+author = "Marco Cornaggia"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Desrcrivermi non è facile nemmeno per me XD
+Sono un ragazzo di 25 anni e mi diverto a convivere con moletplici passioni. 
 
-Hugo makes use of a variety of open source projects including:
+Una di queste è sicuramente la realizzazione di siti Internet come quello che stai vedendo. Ho iniziato con Wordpress per poi addentrarmi in soluzioni sempre più complesse, come il framework Hugo.
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Recentemente ho iniziato a sviluppare piccoli programmi con il popolare linguaggio di programmazione [Python](https://github.com/gohugoio/hugo/blob/master/LICENSE)
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+Oltre a ciò ho esperienza con la creazione, la gestione e l'analisi di campagne pubblicitarie online per piccole imprese.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
 
 
 

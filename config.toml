@@ -9,8 +9,9 @@ footnoteReturnLinkContents = "^"
 
 [params]
     author = "Marco Cornaggia"
-    # logo = "//blog.ertuil.top/avater.png"
+    logo = "erblog/static/self/img/Logo3.png"
     bio = """
+    portrait = "Hugo/static/img/marco-cornaggia-crop.png"
     <p> Benvenuto! </p>
     <br />
     <p>Leggi il mio blog o sbircia qualcosa di me</p>

@@ -30,17 +30,7 @@ footnoteReturnLinkContents = "^"
 #     url = "/zone/"
 #     weight = 10
 
-[[menu.footer]]
-    identifier = "home"
-    name = "home"
-    url = "/"
-    weight = 1
 
-[[menu.footer]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 2
 
 [taxonomies]
 category = "categories"

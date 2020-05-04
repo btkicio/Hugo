@@ -1,8 +1,8 @@
 +++
 author = "Marco Cornaggia"
-title = "Perchè investire in Bitcoin"
+title = "Usare la funzione stop-limit su Binance"
 date = "2020-04-25"
-description = "Benvenuto! In questo breve articolo desidero spiegarti tutti i motivi che mi hanno spinto ad investire tempo e denaro nel popolare software open-source Bitcoin"
+description = "Benvenuto! In questo breve articolo vediamo come impostare lo stop-loss su Binance e andare a letto così tranquilli"
 tags = [
     "bitcoin",
 ]
